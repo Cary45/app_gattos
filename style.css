@@ -1,0 +1,45 @@
+h3{
+ color: purple;
+ font-size: 40px;
+}
+
+h2{
+ color: blue;
+ font-size: 50px;
+ font-family:'Dela Gothic One', cursive;
+}
+
+.img_gatos{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+}
+body{
+    background-color: #f0f0f0;
+}
+
+div#listas{
+    background-color: aquamarine;
+    width: 960px;
+    height: 600px;
+  
+    
+}
+
+div#lista2{
+   
+    width: 300px;
+    height: 300px;
+    float: right;
+    
+}
+
+div#lista1{
+    
+    width: 300px;
+    height: 300px;
+    justify-content: ;
+}
