@@ -10,22 +10,27 @@ h2{
 }
 
 .img_gatos{
-    width:300px;
-    height:300px;
-    border-radius:50%;
+    width:400px;
+    height:200px;
+    border-radius:20%;
     border-width: 5px;
     border-style: double;
     border-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
 }
 body{
     background-color: #f0f0f0;
 }
 
 div#listas{
-    background-color: aquamarine;
     width: 960px;
-    height: 600px;
-  
+    height: 460px;
+    border-style: solid;
+    margin-left: 5px;
+    margin-right: 5px;
     
 }
 
@@ -34,6 +39,8 @@ div#lista2{
     width: 300px;
     height: 300px;
     float: right;
+    display: inline-block;
+    margin-right: 30px;
     
 }
 
@@ -41,5 +48,21 @@ div#lista1{
     
     width: 300px;
     height: 300px;
-    justify-content: ;
+    display: inline-block;
+    margin-left: 30px;
+}
+h2, h3{
+    text-align: center;
+}
+
+form{
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+.img_lg{
+  border-radius: 50%;
 }
